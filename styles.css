@@ -60,12 +60,12 @@ nav {
   justify-content: center;
   align-items: center;
   color: rgb(121, 121, 121);
-  text-decoration: unset;
+  text-decoration: none;
 }
 
 #nav-link > a:visited {
   color: rgb(121, 121, 121);
-  text-decoration: unset;
+  text-decoration: none;
 }
 
 .nav-content > p {
@@ -583,7 +583,7 @@ a:hover {
   #menu > div > img {
     position: absolute;
     top: 6px;
-    left: 4px;
+    left: 10px;
   }
 
   .nav-link-content,
@@ -683,6 +683,12 @@ a:hover {
     margin-bottom: unset;
     align-items: center;
     margin-left: unset;
+    justify-content: center;
+  }
+
+  .lodging-group > a
+  {
+    justify-content: center;
   }
 
   .lodging-group-content > img {
