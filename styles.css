@@ -250,12 +250,12 @@ input {
   height: 80px;
 }
 
-#starp {
+.starp-lodging {
   color: #0065fc;
   font-size: xx-small;
 }
 
-#starv {
+.starv-lodging {
   color: #f2f2f2;
   font-size: xx-small;
 }
@@ -290,7 +290,7 @@ input {
   box-shadow: 0px 0px 20px -16px #000000;
 }
 
-#starpi {
+.starpf-lodging {
   color: #0065fc;
   padding-left: 10px;
   font-size: xx-small;
