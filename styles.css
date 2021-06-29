@@ -270,6 +270,7 @@ input {
 .lodging-group > a
 {
   text-decoration: none;
+  color: #000000;
 }
 
 .lodging-group > a:visited
@@ -510,7 +511,7 @@ input {
 .activities-smallcontent {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
   width: 200px;
   height: 350px;
@@ -720,7 +721,7 @@ a:hover {
     width: 100%;
     margin-right: unset;
     margin-bottom: unset;
-    align-items: center;
+    align-items: stretch;
     margin-left: unset;
     justify-content: center;
   }
@@ -828,7 +829,7 @@ a:hover {
     width: 100%;
     margin-right: unset;
     margin-bottom: unset;
-    align-items: center;
+    align-items: stretch;
   }
 
   .activities-content-text > h3
@@ -860,6 +861,7 @@ a:hover {
     margin-bottom: 10px;
     width: 90%;
     height: 280px;
+    align-self: center;
   }
 
 
