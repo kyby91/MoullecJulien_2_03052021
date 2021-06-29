@@ -1008,6 +1008,7 @@ a:hover {
     width: 100%;
     margin-left: unset;
     height: unset;
+    border-radius: unset;
   }
 
   .lodging-group {
@@ -1032,6 +1033,7 @@ a:hover {
     justify-content: space-around;
     margin-top: 20px;
     flex-direction: row;
+    border-radius: unset;
   }
 
   #popular-name {
