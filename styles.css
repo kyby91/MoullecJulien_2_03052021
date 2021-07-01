@@ -594,13 +594,13 @@ a:hover {
 
   head, main, footer
   {
-    overflow-x: hidden;
     margin-left: 0px;
+    overflow-x: hidden;
   }
 
-  *
+  header, main
   {
-    overflow-x: hidden;
+    margin-left: unset;
   }
 
   header,
@@ -1001,6 +1001,7 @@ a:hover {
   main,
   footer {
     width: 100%;
+    overflow-x: hidden;
   }
 
   #filter {
@@ -1008,6 +1009,11 @@ a:hover {
     flex-wrap: wrap;
   }
 
+
+  header, main
+  {
+    margin-left: unset;
+  }
 
   #menu
   {
