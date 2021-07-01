@@ -598,6 +598,11 @@ a:hover {
     margin-left: 0px;
   }
 
+  *
+  {
+    overflow-x: hidden;
+  }
+
   header,
   main,
   footer {
